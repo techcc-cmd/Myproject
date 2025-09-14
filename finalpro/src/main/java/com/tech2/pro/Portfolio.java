@@ -20,7 +20,7 @@ public class Portfolio {
     @Column(name = "photo_path", length = 255)
     private String photoPath; 
 
-    // 🔹 New fields
+    
     private String phoneNumber;
     private String linkedin;
     private String instagram;
@@ -125,3 +125,4 @@ public class Portfolio {
 		this.phone = phone;
 	}
 }
+
