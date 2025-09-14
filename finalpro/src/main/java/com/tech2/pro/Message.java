@@ -12,10 +12,10 @@ public class Message {
 
     private String name;
     private String email;
-    private String phone;      // NEW
-    private String twitter;    // NEW
-    private String instagram;  // NEW
-    private String facebook;   // NEW
+    private String phone;      
+    private String twitter;    
+    private String instagram;  
+    private String facebook;   
 
     @Column(length = 2000)
     private String content;
@@ -57,3 +57,4 @@ public class Message {
     public User getUser() { return user; }
     public void setUser(User user) { this.user = user; }
 }
+
