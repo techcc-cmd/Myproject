@@ -5,6 +5,7 @@ import java.util.List;
 
 public interface MessageRepository extends JpaRepository<Message, Long> {
 
-    // Add this method to fetch messages for a user
+    
     List<Message> findByUser(User user);
 }
+
