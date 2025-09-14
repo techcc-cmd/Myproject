@@ -12,7 +12,7 @@ public class User {
     private Long id;
     private String profilePhoto;
     private LocalDateTime lastLogin;
-    private String skills;  // Example: "Java:80,Spring Boot:70,React:60"
+    private String skills;  
     private int resumeViews;
 
     public String getSkills() { return skills; }
@@ -22,7 +22,7 @@ public class User {
     public void setResumeViews(int resumeViews) { this.resumeViews = resumeViews; }
 
 
-    // getters and setters
+    
     public String getProfilePhoto() { return profilePhoto; }
     public void setProfilePhoto(String profilePhoto) { this.profilePhoto = profilePhoto; }
 
@@ -44,7 +44,7 @@ public class User {
     @Column(name = "bio", columnDefinition = "TEXT")
     private String bio;
 
-    // --- Constructors ---
+    
     public User() {
     }
 
@@ -54,7 +54,7 @@ public class User {
         this.password = password;
     }
 
-    // --- Getters and Setters ---
+    
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
@@ -73,3 +73,4 @@ public class User {
     public String getBio() { return bio; }
     public void setBio(String bio) { this.bio = bio; }
 }
+
